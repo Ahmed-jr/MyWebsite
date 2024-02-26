@@ -1,0 +1,334 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+a{
+    text-decoration: none;
+    color: #f5f6fa;
+}
+
+ul{
+    list-style: none;
+}
+
+h1,h2,h3{
+    line-height: 30px;
+}
+
+.container{
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+    margin: auto;
+}
+
+span{
+    color: #c23616;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 20px;
+    color: #f5f6fa;
+    background-color: #636e72;
+    /* opacity: 0.5; */
+    padding: 13px 20px;
+    border: 2PX solid #c23616;
+}
+
+.btn:hover{
+    background-color: #c23616;
+    color: #f5f6fa;
+    /* opacity: 1; */
+}
+
+.btn-light{
+    display: inline-block;
+    font-size: 20px;
+    background-color: #f5f6fa;
+    color: #2d3436;
+    padding: 13px 20px;
+    border: 2px solid #c23616;
+}
+
+.btn-light:hover{
+    background-color: #c23616;
+    color: #2d3436;
+}
+
+.bg-dark{
+    background-color: #2d3436;
+    color: #f5f6fa;
+}
+/* Header */
+#header{
+    background-image:url(../p0982k70.jpg);
+    background-size: cover;
+    height:800px;
+    /* opacity: 0.9; */
+}
+
+#navbar{
+    background-color: #2d3436;
+    height: 60px;
+    /* opacity: 0.5; */
+}
+
+#navbar:hover{
+    /* opacity: 1; */
+}
+
+#navbar h1{
+    float: left;
+    padding: 20px;
+    color: #f5f6fa;
+}
+
+#navbar ul{
+    float: right;
+}
+
+#navbar ul li{
+    display: inline-block;
+}
+
+#navbar ul li a{
+    text-align: center;
+    padding: 20px;
+    display: block;
+}
+
+#navbar ul li a:hover{
+    color: #c23616;
+}
+
+.container:hover #portfolio {
+    width: 100%;
+  }
+
+  
+#portfolio h1{
+    color: #f5f6fa;
+    font-size: 60px;
+    padding-top: 200px;
+    line-height: 60px;
+}
+
+#portfolio button{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Services Page */
+#services{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#services h1{
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
+#services .box{
+    display: inline-block;
+    text-align: left;
+    width: 20%;
+    background-color: #192a56;
+    color: #f5f6fa;
+    padding: 20px;
+    height: 300px;
+    width: 250px;
+    line-height: 20px;
+    margin-top: 100px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+#services i{
+    background-color: #e1b12c;
+    color: #6c5ce7;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /* opacity: 1; */
+}
+
+#services h2{
+    margin-bottom: 15px;
+    font-weight: bold;
+    /* opacity: 1; */
+}
+
+/* Projects */
+#project{
+    margin-top:100px ;
+    margin-bottom: 100px;
+}
+
+#project h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+#project .content-left{
+    float: left;
+    width: 50%;
+    height: 260px;
+    background-color: #192a56;
+    color: #f5f6fa;
+    padding-top: 100px;
+}
+
+#project .content-left h2{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+
+#project .content-left h3{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+#project .content-left p{
+    padding-left: 20px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#project .img-right{
+    float: right;
+    background-image: url(../macbook-air-on-desk.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 360px;
+}
+
+#project .content-right{
+    float: right;
+    width: 50%;
+    height: 260px;
+    background-color: #192a56;
+    color: #f5f6fa;
+    padding-top: 100px;
+}
+
+#project .content-right h2{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+
+#project .content-right h3{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+#project .content-right p{
+    padding-left: 20px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#project .img-left{
+    float: left;
+    background-image: url(../macbook-air-on-desk.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 360px;
+}
+
+/* About Me */
+#about-me{
+    margin: 100px 0;
+}
+
+#about-me .about-img{
+    background-image: url(../hespoke-style-ig.png);
+    background-size: cover;
+    float: left;
+    height: 350px;
+    width: 30%;
+}
+
+#about-me .about-content{
+    float: right;
+    width: 60%;
+    height: 350px;
+}
+
+#about-me .about-content h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+#about-me .about-content h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#about-me .about-content p{
+    line-height: 20px;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+
+/* Contact */
+#contact h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+#contact .boxes{
+    display: inline-block;
+    width: 25%;
+    border: 1px solid #636e72;
+    border-radius: 10px;
+    height: 100px;
+    padding: 30px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+/* Footer */
+#footer{
+    margin-top: 100px;
+    background-color: #192a56;
+    color: #f5f6fa;
+    height: 230px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#footer h1{
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+#footer h2{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#footer i{
+    display: inline-block;
+    background-color: #f5f6fa;
+    color: #192a56;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 6px 5px 0 5px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
